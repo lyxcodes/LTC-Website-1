@@ -1,0 +1,113 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  margin: 25px 0; 
+}
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+
+}
+
+img {
+  display: block; 
+  max-width: 100%;
+
+}
+
+section {
+  overflow: auto;
+}
+
+.wrap {
+  max-width: 1280px;
+  padding: 50px
+}
+
+/**** HOMEPAGE ****/
+
+header {
+  text-align: center; 
+  color:#ffffff;
+  padding: 80 px, 0;
+}
+
+header img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.benefits, .tickets, .conclusion {
+  display: block;
+  background-color: #bdd5ea;
+  margin: 0, 0;
+  border-top: dashed;
+  border-bottom: dashed;
+  border-width: thin;
+}
+
+.three-points-section {
+  min-height: 400px;
+}
+
+.three-points-section img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.three-points-section-image {
+  width: 40%;
+  float: left;
+}
+
+.three-points-section-text {
+  width: 60%;
+  float: left;
+}
+
+.speakers-section {
+  min-height: 300px;
+}
+
+.speakers-section img {
+  width: 150px;
+  margin: 0 auto; 
+}
+
+.speakers-image {
+  width: 40%;
+  float: left;
+}
+
+.speakers-text {
+  width: 60%;
+  float: left;
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+  background-color: #495867;
+}
+
+/****TICKETS****/
+
+.form {
+  text-align: center;
+}
