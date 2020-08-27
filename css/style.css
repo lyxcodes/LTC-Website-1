@@ -211,11 +211,24 @@ section#speakers h3 {
   font-weight: bold;
 }
 
-.footer {
+section#conclusion {
+  background: #BDD5EA;
+  border-top: 1px dashed #495867;
+  text-align: center;
+}
+
+section#conclusion .button {
+  line-height: 3;
+}
+
+footer {
   color: #ffffff;
   text-align: center;
   background-color: #495867;
+  padding: 20px;
 }
+
+
 
 /****TICKETS PAGE****/
 
