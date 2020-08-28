@@ -232,6 +232,58 @@ footer {
 
 /****TICKETS PAGE****/
 
-.form {
+.form h1 {
   text-align: center;
 }
+
+#form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#form form {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  background: url('/images/swirl.png');
+  border: 1px solid #efefef;
+  box-shadow: 2px 2px #efefef;
+}
+
+#form form label {
+  display: none;
+}
+
+#form form .input {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#form form .dropdown {
+  padding: 6px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid #dedede;
+  width: 200px;
+}
+
+#form form .dropdown select {
+  border: none;
+  background-color: #fff;
+  width: 100%;
+}
+
+#form form [type="checkbox"] {
+  margin-right: 10px;
+}
+
+#form form input[type="submit"] {
+  background-color: #fe5f55;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+} 
